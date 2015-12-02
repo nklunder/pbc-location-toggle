@@ -1,0 +1,24 @@
+/* point logo id to the image on our UX server */
+#logo {
+  background-image: url("http://www.premeraux.com/img/logo_pbc.png") !important;
+}
+/* recoded sidebar styles so we don't have to work with the nested div canyon */
+#content-promotional {
+  margin-top: 10px;
+  font-size: 85%;
+}
+#content-promotional > div {
+  padding: 12px;
+  border-top: 5px solid;
+}
+#content-promotional > div:first-child  { border-top-color: #006bb7; }
+#content-promotional > div:nth-child(2) { border-top-color: #f2ce30; }
+#content-promotional > div:nth-child(3) { border-top-color: #92b638; }
+
+.location-dropdown {
+  min-width: 0;
+}
+
+.options-display > div {
+  margin: 18px 0;
+}
