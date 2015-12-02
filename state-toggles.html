@@ -1,0 +1,39 @@
+<!-- NOTE
+     ==========================
+     The list item for the active page is still wrapped in an <a> tag
+     even though it's not technically a link. The <a> tag is what gives
+     it proper styling, and I felt this was more practical than writing
+     custom CSS. Without an href attribute it functions as a generic
+     tag and wwon't add an entry to the browser history or trigger a
+     reload of the page if clicked.
+-->
+
+<!-- PBCWA replacement code -->
+<div class="pull-right">
+  Location:
+  <span class="dropdown">
+    <button class="btn btn-default btn-xs dropdown-toggle" type="button" id="location-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      WA
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="location-dropdown">
+      <li><a href="/setgeo.aspx?geo=ak">AK</a></li>
+      <li><a>WA</a></li>
+    </ul>
+  </span>
+</div>
+
+<!-- PBCAK replacement code -->
+<div class="pull-right">
+  Location:
+  <span class="dropdown">
+    <button class="btn btn-default btn-xs dropdown-toggle" type="button" id="location-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      AK
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="location-dropdown">
+      <li><a>AK</a></li>
+      <li><a href="/setgeo.aspx?geo=wa">WA</a></li>
+    </ul>
+  </span>
+</div>

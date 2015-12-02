@@ -1,0 +1,6 @@
+#location-dropdown {
+  margin-bottom: 4px; /* needed for spacing between toggle and right rail */
+}
+#location-dropdown + .dropdown-menu {
+  min-width: 0; /* forces dropdown list to adapt to content width */
+}

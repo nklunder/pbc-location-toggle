@@ -4,7 +4,6 @@
 }
 /* recoded sidebar styles so we don't have to work with the nested div canyon */
 #content-promotional {
-  margin-top: 10px;
   font-size: 85%;
 }
 #content-promotional > div {
@@ -15,10 +14,12 @@
 #content-promotional > div:nth-child(2) { border-top-color: #f2ce30; }
 #content-promotional > div:nth-child(3) { border-top-color: #92b638; }
 
-.location-dropdown {
-  min-width: 0;
-}
+/* ==================== ^^^ unrelated to component ^^^ =================== */
 
-.options-display > div {
-  margin: 18px 0;
+
+#location-dropdown {
+  margin-bottom: 4px;
+}
+#location-dropdown + .dropdown-menu {
+  min-width: 0;
 }
